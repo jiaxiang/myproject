@@ -1,0 +1,35 @@
+web服务器配置说明：
+以Nginx为例：
+if (!-e $request_filename) {
+	rewrite ^/(.*)$ /index.php?lujiaxiang=/$1 last;
+}
+
+网站目录配置说明：
+/init.php
+APPURL：				应用url
+BASEPATH：			服务器完整路径
+WEBPATH：			应用相对目录路径
+$init["base_dir"]：	同BASEPATH
+$init['web_dir']：	同WEBPATH
+
+数据库配置说明：
+/classes/SQL.php
+配置数据库名，连接地址，用户名，密码
+
+已使用SESSION说明:
+es_yb_sig_session_key：	当前session_key
+es_yb_sig_user：			当前用户id
+es_yb_sig_realinfo：		当前用户信息（用户id，用户真实姓名，用户名）
+例：
+Array
+(
+    [es_yb_sig_session_key] => 2.12988ace81526317f2f0c93d4ea36318.7200.1338641146-33
+    [es_yb_sig_user] => 33
+    [es_yb_sig_realinfo] => Array
+        (
+            [id] => 33
+            [name] => 陆佳翔
+            [username] => Sai翔
+        )
+
+)

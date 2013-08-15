@@ -1,0 +1,45 @@
+/* CSS Document */
+.contanter{ width:755px; margin:0 auto;}
+.prj_title{ display:block;}
+.prj_title h1{ text-align:center; font-size:14px; font-weight:bold; color:#333; line-height:32px;}
+.table_list{}
+.table_list table{ border-collapse:collapse; border:1px solid #B1D4EC;}
+.table_list table th{background:#b2d4ec;color:#343434;text-shadow:1px 1px 0px #e1effa;}
+
+.table_list table td,
+.table_list table th{height:28px;border:1px solid #B1D4EC;padding:0 5px;text-align:center;text-shadow:1px 1px 0px #fff; font-size:12px;}
+.table_list table th{background:#b2d4ec;color:#343434;text-shadow:1px 1px 0px #e1effa; font-weight:bold;}
+
+.prj_title_l{}
+.prj_title_l h1{ text-align:left;}
+.pro_create{ margin:15px 0;}
+.pro_c_ul{ overflow:hidden;}
+.pro_c_ul li{ display:block; margin-bottom:15px; overflow:hidden;}
+.pro_c_t{ display:inline-block; width:120px; text-align:right; height:24px; line-height:24px; float:left; color:#333; font-size:14px;}
+.pro_c_c{ display:inline-block; float:left; padding-left:15px;}
+.pro_tip{ color:#999; line-height:23px;}
+.pro_t_num{ color:#999;}
+.pro_p_r{ line-height:22px;}
+.pro_actoin{ margin:15px 0; padding-left:120px;}
+.pro_btn_s1:link,
+.pro_btn_s1:visited,
+.pro_btn_s2:link,
+.pro_btn_s2:visited{ display:inline-block; width:80px; height:26px; background:url(../images/button_con.png) no-repeat; line-height:26px; font-size:12px; text-align:center; text-decoration:none; margin:0 30px;}
+.pro_btn_s1:link,
+.pro_btn_s1:visited{ background-position:0 -52px; color:#fff; text-decoration:none;}
+.pro_btn_s1:active,
+.pro_btn_s1:hover{ background-position:0 -78px;color:#fff; text-decoration:none;}
+.pro_btn_s2:active,
+.pro_btn_s2:hover{ background-position:0 -26px; text-decoration:none;}
+.pro_btn:link,
+.pro_btn:visited{ display:inline-block; height:26px; padding-left:10px; padding-right:10px; line-height:26px; background:#e1e9e7; color:#666; font-size:12px; border:1px solid #a5bac1; text-decoration:none; border-radius:3px;}
+.pro_btn:active,
+.pro_btn:hover{ background:#cef4ef;}
+.pro_actoin_det{ text-align:right;}
+.pro_detail{ font-size:12px;}
+.prode_title{ margin:15px 0;}
+.prode_title h2{ font-size:14px; font-weight:bold;color:#666; text-align:center;}
+.pro_detail p,
+.pro_detail li{ line-height:22px;}
+.pro_detail p{ margin-bottom:10px; text-indent:2em;}
+.prj_pages{ margin:10px; padding:5px; text-align:right;}
